@@ -1,0 +1,1 @@
+(new WOW).init();var swiper=new Swiper(".swiper-container",{effect:"coverflow",grabCursor:!0,loop:!0,centeredSlides:!0,slidesPerView:"auto",coverflowEffect:{rotate:5,stretch:0,depth:100,modifier:3,slideShadows:!1},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}});
