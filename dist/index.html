@@ -17,12 +17,12 @@
 <header class="header" id="header">
 	<div class="container">
 		<div class="row">
-			<a href="#" class="header-logo">OBHAVO</a>
-			<ul class="header-nav clear-fix">
-				<li class="header-nav-item"><a href="#" class="header-nav-item-link">Bosh sahifa</a></li>
-				<li class="header-nav-item"><a href="#" class="header-nav-item-link">Imkoniyatlar</a></li>
-				<li class="header-nav-item"><a href="#" class="header-nav-item-link">Biz haqimizda</a></li>
-				<li class="header-nav-item"><a href="#" class="header-nav-item-link">Yuklab olish</a></li>
+			<a href="#" class="header-logo">OB<span>HAVO</span></a>
+			<ul class="header-nav mobile-hidden clear-fix">
+				<li class="header-nav-item"><a href="#" data-to="#home" class="header-nav-item-link">Bosh sahifa</a></li>
+				<li class="header-nav-item"><a href="#" data-to="#features" class="header-nav-item-link">Imkoniyatlar</a></li>
+				<li class="header-nav-item"><a href="#" data-to="#feedback" class="header-nav-item-link">Biz haqimizda</a></li>
+				<li class="header-nav-item"><a href="#" data-to="#download" class="header-nav-item-link">Yuklab olish</a></li>
 				<li class="header-nav-item"><a href="#" class="header-nav-item-link">Blog</a></li>
 			</ul>
 
@@ -36,7 +36,7 @@
 </header>
 
 
-<section class="home">
+<section class="home" id="home">
 	<div class="container">
 		<div class="home-content row">
 			<div class="home-info wow fadeIn">
@@ -50,9 +50,9 @@
 				</div>
 				<div class="home-info-links">
 					<div class="row">
-						<a href="#" class="home-info-links-item home-info-links-default">Yuklash</a>
+						<a href="#" data-to="#download" class="home-info-links-item home-info-links-default">Yuklash</a>
 
-						<a href="#" class="home-info-links-item home-info-links-alternate">Imkoniyatlar</a>
+						<a href="#" data-to="#features" class="home-info-links-item home-info-links-alternate">Imkoniyatlar</a>
 					</div>
 				</div>
 			</div>
@@ -65,10 +65,14 @@
 				<div class="home-img-attr home-img-attr-london">London</div>
 			</div>
 		</div>
+
+		<div class="home-next" id="home-next">
+			<i class="icon-keyboard_arrow_down"></i>
+		</div>
 	</div>
 </section>
 
-<section class="section">
+<section class="section" id="features">
 	<div class="container">
 		<header class="section-header wow fadeInUp">
 			<h2 class="section-header-title">Perfect Features</h2>
@@ -118,7 +122,7 @@
 </section>
 
 
-<section class="section">
+<section class="section" id="slider">
 	<div class="container">
 		<header class="section-header wow fadeInUp">
 			<h2 class="section-header-title">Simple Widgets</h2>
@@ -146,7 +150,7 @@
 
 
 
-<div class="section">
+<div class="section" id="screenshots">
 	<div class="container">
 		<header class="section-header wow fadeInUp">
 			<h2 class="section-header-title">Screenshots</h2>
@@ -175,7 +179,7 @@
 
 			<div class="screenshots-item screenshots-item-alternate">
 				<div class="row">
-					<div class="screenshots-item-info wow fadeInDown" data-wow-delay="200ms">
+					<div class="screenshots-item-info wow wow fadeInUp" data-wow-delay="200ms">
 						<div class="screenshots-item-info-icon">
 							<i class="icon icon-sun"></i>
 						</div>
@@ -202,7 +206,7 @@
 							<div class="screenshots-item-img-attr screenshots-item-img-attr-gradus">9</div>
 						</div>
 					</div>
-					<div class="screenshots-item-info wow fadeInDown" data-wow-delay="200ms">
+					<div class="screenshots-item-info wow fadeInUp" data-wow-delay="200ms">
 						<div class="screenshots-item-info-icon">
 							<i class="icon icon-rainy"></i>
 						</div>
@@ -217,7 +221,7 @@
 </div>
 
 
-<section class="section">
+<section class="section" id="feedback">
 	<div class="container">
 		<header class="section-header">
 			<h1 class="section-header-title">What people are saying</h1>
@@ -257,7 +261,7 @@
 </section>
 
 
-<section class="download">
+<section class="download" id="download">
 	<div class="container">
 		<div class="download-info wow fadeInUp">
 			<h2 class="download-info-title">How download the app?</h2>
@@ -285,9 +289,9 @@
 <footer class="footer">
 	<div class="container footer-container">
 		<div class="row">
-			<a href="#" class="footer-logo">FUN <span>WEATHER</span></a>
-
-			<ul class="footer-nav">
+			<a href="#" class="footer-logo">OB <span>HAVO</span></a>
+			
+			<ul class="footer-nav clear-fix mobile-hidden">
 				<li class="footer-nav-item"><a href="#" class="footer-nav-item-link">Bosh sahifa</a></li>
 				<li class="footer-nav-item"><a href="#" class="footer-nav-item-link">Imkoniyatlar</a></li>
 				<li class="footer-nav-item"><a href="#" class="footer-nav-item-link">Biz haqimizda</a></li>
